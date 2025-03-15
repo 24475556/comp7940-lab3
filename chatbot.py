@@ -4,7 +4,7 @@
 from telegram import Update
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters, CallbackContext)
 # The messageHandler is used for all message updates
-#from ChatGPT_HKBU import HKBU_ChatGPT
+from ChatGPT_HKBU import HKBU_ChatGPT
 import configparser
 import logging
 import redis
